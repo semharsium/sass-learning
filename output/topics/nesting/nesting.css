@@ -1,0 +1,12 @@
+.header__navigation .navigation__menu {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+}
+.header__navigation .navigation__menu-item {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=nesting.css.map */
