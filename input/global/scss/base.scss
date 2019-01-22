@@ -1,0 +1,10 @@
+@import 'partial-fonts.scss';
+@import 'variables.scss';   
+
+@import './navigation/navigation.scss';
+@import './header/header.scss';
+
+body {
+    font-size: $default-font-size;
+    margin: 0;
+}
