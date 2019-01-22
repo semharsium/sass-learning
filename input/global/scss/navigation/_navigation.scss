@@ -19,3 +19,15 @@
     background: black;
     width: 100%;
 }
+
+.navigation__menu-item {
+    &.navigation__menu-item-link--special {
+        text-decoration: underline;
+    }
+  }
+  .navigation__menu-item{
+    &:visited {color:green;}
+    &:hover { color: yellow;}
+    &:active { color: aqua;}
+  }
+ 
