@@ -1,0 +1,36 @@
+* {
+  font-family: Arial;
+  font-size: 32px;
+}
+
+.navigation__menu-item-link {
+  color: pink;
+  text-decoration: none;
+}
+
+.navigation__menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation__menu-item {
+  list-style: none;
+  margin: 10px;
+  transform: rotate(0deg);
+}
+
+.header__navigation {
+  background: black;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+}
+
+body {
+  font-size: 18px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=base.css.map */
