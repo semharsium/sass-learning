@@ -1,0 +1,20 @@
+@import '../mixins.scss';
+
+.navigation__menu-item-link {
+    color: $link_color;
+    text-decoration: none;
+}
+.navigation__menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigation__menu-item{
+    list-style: none;
+    margin: 10px;
+    @include rotate(0deg);
+}
+
+.header__navigation {
+    background: black;
+    width: 100%;
+}
