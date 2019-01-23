@@ -1,33 +1,34 @@
 @import '../mixins.scss';
 
-.navigation__menu-item-link {
-    color: $link_color;
-    text-decoration: none;
-}
-.navigation__menu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.navigation__menu-item{
-    list-style: none;
-    margin: 10px;
-    @include rotate(0deg);
-}
+.navigation {
 
-.header__navigation {
-    background: black;
-    width: 100%;
-}
-
-.navigation__menu-item {
-    &.navigation__menu-item-link--special {
-        text-decoration: underline;
+    &__menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-  }
-  .navigation__menu-item{
-    &:visited {color:green;}
-    &:hover { color: yellow;}
-    &:active { color: aqua;}
-  }
- 
+
+    &__menu-item {
+        list-style: none;
+        margin: 10px;
+
+        &-link {
+            color: $link_color;
+            text-decoration: none;
+
+            &:hover { 
+                color: yellow;
+            }
+
+            &:active {
+                 color: aqua;
+            }
+
+            &--blue {
+                text-decoration: underline;
+                color: $link_color_special;
+            }
+        }
+    }
+}
+
