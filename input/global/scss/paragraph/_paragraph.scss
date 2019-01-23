@@ -1,0 +1,14 @@
+.paragraph {
+    
+    &__container {
+
+        & > p {
+            color: lightcoral;
+        }
+    }
+}
+.paragraph__container + p {
+    color: blue;
+}
+
+
