@@ -9,3 +9,28 @@ body {
     font-size: $default-font-size;
     margin: 0;
 }
+
+
+   
+%message-shared {
+    border: 1px solid yellow;
+    padding: 10px;
+    color: #333;
+  }
+.container-one{
+    @extend %message-shared ;
+}
+.container-two{
+    @extend %message-shared;
+  border-color: green;
+}
+.container-three{
+    @extend %message-shared;
+    border-color: red;
+}
+  
+.container-four{
+    @extend %message-shared;
+    border-color: yellow;
+}
+  
